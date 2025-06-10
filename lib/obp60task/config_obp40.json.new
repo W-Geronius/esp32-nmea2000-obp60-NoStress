@@ -2,7 +2,7 @@
   {
     "category": "system",
     "check": "checkSystemName",
-    "default": "OBP60V2",
+    "default": "OBP40",
     "description": "system name, used for the access point and for services",
     "label": "system name",
     "name": "deviceName",
@@ -21,9 +21,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.00",
     "description": "Time zone [UTC -12...+14]",
@@ -35,11 +35,11 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
-    "default": "",
+    "default": "0.00000",
     "description": "Latitude of boat home location [-90.0...+90.0]",
     "label": "Home latitude",
     "max": 90,
@@ -49,11 +49,11 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
-    "default": "",
+    "default": "0.00000",
     "description": "Longitude of boat home location [-180.0...+180.0]",
     "label": "Home longitude",
     "max": 180,
@@ -63,9 +63,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.00",
     "description": "The draft of the boat [0...50m]",
@@ -77,9 +77,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0",
     "description": "Fuel tank capacity [0...5000l]",
@@ -91,9 +91,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.00",
     "description": "Medium fuel consumption [0...1000l/h]",
@@ -105,9 +105,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0",
     "description": "Water tank capacity [0...5000l]",
@@ -119,9 +119,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0",
     "description": "Waste tank capacity [0...5000l]",
@@ -133,9 +133,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "default": "12V",
     "description": "Battery Voltage [12V|24V]",
     "label": "Battery Voltage [V]",
@@ -148,9 +148,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "default": "Pb",
     "description": "Type of battery [Pb|Gel|AGM|LiFePo4]",
     "label": "Battery Type",
@@ -165,9 +165,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.0",
     "description": "Battery capacity [0...10000Ah]",
@@ -179,9 +179,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.0",
     "description": "Solar power [0...10000W]",
@@ -193,9 +193,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "0.0",
     "description": "Generator power [0...10000W]",
@@ -207,9 +207,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Settings",
+    "category": "OBP40 Settings",
     "check": "checkMinMax",
     "default": "3.0",
     "description": "track step offset [1...12deg]",
@@ -221,9 +221,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "m",
     "description": "Length format [m|ft]",
     "label": "Length Format",
@@ -236,9 +236,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "nm",
     "description": "Distance format [m|km|nm]",
     "label": "Distance Format",
@@ -252,9 +252,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "kn",
     "description": "Distance format [m/s|km/h|kn]",
     "label": "Speed Format",
@@ -268,9 +268,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "kn",
     "description": "Wind speed format [m/s|km/h|kn|bft]",
     "label": "Wind Speed Format",
@@ -285,9 +285,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "C",
     "description": "Temperature format [K|C|F]",
     "label": "Temperature Format",
@@ -301,9 +301,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Units",
+    "category": "OBP40 Units",
     "default": "DE",
     "description": "Date format [DE|GB|US|ISO] DE: 31.12.2022, GB: 31/12/2022, US: 12/31/2022, ISO: 2022-12-31",
     "label": "Date Format",
@@ -318,9 +318,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "160",
     "description": "CPU speed in MHz [80|160|240]",
     "label": "CPU Speed [MHz]",
@@ -334,10 +334,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
-    "default": "DS1388",
+    "category": "OBP40 Hardware",
+    "default": "off",
     "description": "Use internal RTC module type [off|DS1388]",
     "label": "RTC Modul",
     "list": [
@@ -349,10 +349,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
-    "default": "ATGM336H",
+    "category": "OBP40 Hardware",
+    "default": "off",
     "description": "Use internal GPS module type [off|NEO-6M|NEO-M8N|ATGM336H]",
     "label": "GPS Sensor",
     "list": [
@@ -366,9 +366,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "check": "checkMinMax",
     "default": "20",
     "description": "HDOP ccuracy in m for a valid GPS signal [1...50]",
@@ -380,10 +380,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
-    "default": "BMP280",
+    "category": "OBP40 Hardware",
+    "default": "off",
     "description": "Use internal or external environment sensor via I2C bus [off|BME280|BMP280|BMP180|BMP085|HTU21|SHT21]",
     "label": "Env. Sensor",
     "list": [
@@ -400,9 +400,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Use external power management sensor via I2C bus for battery [off|INA219|INA226|]",
     "label": "Battery Sensor",
@@ -416,9 +416,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "10",
     "description": "Shunt current value [10A|50A|100A|200A|300A|400A|500A]",
     "label": "Battery Shunt",
@@ -436,9 +436,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Use external power management sensor via I2C bus for solar panels [off|INA219|INA226|]",
     "label": "Solar Sensor",
@@ -452,9 +452,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "10",
     "description": "Shunt current value [10A|50A|100A|200A|300A|400A|500A]",
     "label": "Solar Shunt",
@@ -472,9 +472,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Use external power management sensor via I2C bus for generator [off|INA219|INA226|]",
     "label": "Gen. Sensor",
@@ -488,9 +488,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "10",
     "description": "Shunt current value [10A|50A|100A|200A|300A|400A|500A] @ 75mV",
     "label": "Gen. Shunt",
@@ -508,9 +508,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Use external rotation sensor via I2C bus [off|AS5600]",
     "label": "Rot. Sensor",
@@ -523,9 +523,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Function for rotation sensor [off|Rudder|Wind|Mast|Keel|Trim|Boom]",
     "label": "Rot. Function",
@@ -543,9 +543,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "check": "checkMinMax",
     "default": "0",
     "description": "Offset for rotation sensor [-180°...+180°]",
@@ -557,9 +557,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "check": "checkMinMax",
     "default": "25",
     "description": "Limit violation for roll angle [-90°...+90°]",
@@ -571,9 +571,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "check": "checkMinMax",
     "default": "0",
     "description": "Roll offset angle [-45°...+45°]",
@@ -585,9 +585,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "check": "checkMinMax",
     "default": "0",
     "description": "Pitch offset angle [-45°...+45°]",
@@ -599,9 +599,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "off",
     "description": "Use max. 8 external 1Wire devices [off|DS18B20]",
     "label": "Temp. Sensor",
@@ -614,9 +614,24 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
+    "default": "off",
+    "description": "Use internal SD card interface [off|on]",
+    "label": "SD Card",
+    "list": [
+      "off",
+      "on"
+    ],
+    "name": "useSDCard",
+    "type": "boolean"
+  },
+  {
+    "capabilities": {
+      "obp40": "true"
+    },
+    "category": "OBP40 Hardware",
     "default": "Max Power",
     "description": "Settings for power mode",
     "label": "Power Mode",
@@ -630,20 +645,20 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "false",
-    "description": "Switch off device if voltage drops below 9V [on|off]",
+    "description": "Switch off device if LiPo voltage drops below 3.65V [on|off]",
     "label": "Undervoltage",
     "name": "underVoltage",
     "type": "boolean"
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Hardware",
+    "category": "OBP40 Hardware",
     "default": "false",
     "description": "Use simulation data when bus data are missing [on|off]",
     "label": "Simulation Data",
@@ -652,9 +667,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Calibrations",
+    "category": "OBP40 Calibrations",
     "check": "checkMinMax",
     "default": "100",
     "description": "Touch sensitivity [0...100%] for sensor buttons",
@@ -666,9 +681,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Calibrations",
+    "category": "OBP40 Calibrations",
     "default": "-1.00",
     "description": "Offset for internal voltage sensor (ESP32)",
     "label": "VSensor Offset",
@@ -677,9 +692,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Calibrations",
+    "category": "OBP40 Calibrations",
     "default": "1.00",
     "description": "Slope for internal voltage sensor (ESP32)",
     "label": "VSensor Slope",
@@ -688,192 +703,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Calibrations",
-    "default": "---",
-    "description": "Data instance for calibration",
-    "label": "Calibration Data Instance 1",
-    "list": [
-      "---",
-      "AWA",
-      "AWS",
-      "DBT",
-      "HDM",
-      "PRPOS",
-      "RPOS",
-      "STW",
-      "TWA",
-      "TWS",
-      "TWD",
-      "WTemp"
-    ],
-    "name": "calInstance1",
-    "type": "list"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "0.00",
-    "description": "Offset for data instance 1",
-    "label": "Data Instance 1 Calibration Offset",
-    "name": "calOffset1",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "1.00",
-    "description": "Slope for data instance 1",
-    "label": "Data Instance 1 Calibration Slope",
-    "name": "calSlope1",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "check": "checkMinMax",
-    "default": "0",
-    "description": "Smoothing factor for data instance 1",
-    "label": "Data Instance 1 Smoothing",
-    "max": 10,
-    "min": 0,
-    "name": "calSmooth1",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "---",
-    "description": "Data instance for calibration",
-    "label": "Calibration Data Instance 2",
-    "list": [
-      "---",
-      "AWA",
-      "AWS",
-      "DBT",
-      "HDM",
-      "PRPOS",
-      "RPOS",
-      "STW",
-      "TWA",
-      "TWS",
-      "TWD",
-      "WTemp"
-    ],
-    "name": "calInstance2",
-    "type": "list"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "0.00",
-    "description": "Offset for data instance 2",
-    "label": "Data Instance 2 Calibration Offset",
-    "name": "calOffset2",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "1.00",
-    "description": "Slope for data instance 2",
-    "label": "Data Instance 2 Calibration Slope",
-    "name": "calSlope2",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "check": "checkMinMax",
-    "default": "0",
-    "description": "Smoothing factor for data instance 2",
-    "label": "Data Instance 2 Smoothing",
-    "max": 10,
-    "min": 0,
-    "name": "calSmooth2",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "---",
-    "description": "Data instance for calibration",
-    "label": "Calibration Data Instance 3",
-    "list": [
-      "---",
-      "AWA",
-      "AWS",
-      "DBT",
-      "HDM",
-      "PRPOS",
-      "RPOS",
-      "STW",
-      "TWA",
-      "TWS",
-      "TWD",
-      "WTemp"
-    ],
-    "name": "calInstance3",
-    "type": "list"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "0.00",
-    "description": "Offset for data instance 3",
-    "label": "Data Instance 3 Calibration Offset",
-    "name": "calOffset3",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "default": "1.00",
-    "description": "Slope for data instance 3",
-    "label": "Data Instance 3 Calibration Slope",
-    "name": "calSlope3",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Calibrations",
-    "check": "checkMinMax",
-    "default": "0",
-    "description": "Smoothing factor for data instance 3",
-    "label": "Data Instance 3 Smoothing",
-    "max": 10,
-    "min": 0,
-    "name": "calSmooth3",
-    "type": "number"
-  },
-  {
-    "capabilities": {
-      "obp60": "true"
-    },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "Logo + QR Code",
     "description": "Settings for startup display",
     "label": "Display Mode",
@@ -888,9 +720,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "Normal",
     "description": "Invert display to white letters on black background [Normal|Inverse]",
     "label": "Inverted Display Mode",
@@ -903,9 +735,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "true",
     "description": "Show status line [on|off]",
     "label": "Status Line",
@@ -914,19 +746,23 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "GPS",
-    "description": "Data source for date and time display in status line [RTC|GPS]",
+    "description": "Data source for date and time display in status line [RTC|iRTC|GPS]",
     "label": "Status Time Source",
     "list": [
       {
-        "l": "Real time clock (RTC)",
+        "l": "Internal real time clock (iRTC)",
+        "v": "iRTC"
+      },
+      {
+        "l": "External real time clock (RTC)",
         "v": "RTC"
       },
       {
-        "l": "Time via bus (GPS)",
+        "l": "External time via bus (GPS)",
         "v": "GPS"
       }
     ],
@@ -935,9 +771,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "true",
     "description": "Refresh e-paper display after each new page request to reduce ghost effects [on|off]",
     "label": "Refresh",
@@ -946,9 +782,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "false",
     "description": "Fast refresh for e-paper display [on|off]",
     "label": "Fast Refresh",
@@ -957,9 +793,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "check": "checkMinMax",
     "default": "1",
     "description": "E-Paper full refresh time all [1...10 min]",
@@ -971,9 +807,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "false",
     "description": "Retain old values when data stream stops [on|off]",
     "label": "Hold Values",
@@ -982,10 +818,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Display",
-    "default": "Control by Key",
+    "category": "OBP40 Display",
+    "default": "off",
     "description": "Settings for automatic backlight mode",
     "label": "Backlight Mode",
     "list": [
@@ -1001,9 +837,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "default": "Red",
     "description": "Backlight color",
     "label": "Backlight Color",
@@ -1022,9 +858,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Display",
+    "category": "OBP40 Display",
     "check": "checkMinMax",
     "default": "50",
     "description": "Backlight brightness [20...100%]",
@@ -1036,10 +872,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Display",
-    "default": "Limit Violation",
+    "category": "OBP40 Display",
+    "default": "Off",
     "description": "Settings for flash LED",
     "label": "Flash LED Mode",
     "list": [
@@ -1053,9 +889,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Buzzer",
+    "category": "OBP40 Buzzer",
     "default": "false",
     "description": "Sound on error [on|off]",
     "label": "Buzzer Error",
@@ -1064,9 +900,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Buzzer",
+    "category": "OBP40 Buzzer",
     "default": "false",
     "description": "Sound on missing or lost GPS fix",
     "label": "Buzzer GPS Fix",
@@ -1075,9 +911,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Buzzer",
+    "category": "OBP40 Buzzer",
     "default": "false",
     "description": "Sound on limit violation",
     "label": "Buzzer by Limits",
@@ -1086,9 +922,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Buzzer",
+    "category": "OBP40 Buzzer",
     "default": "Off",
     "description": "Settings for buzzer behaviour",
     "label": "Buzzer Mode",
@@ -1103,9 +939,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "false"
     },
-    "category": "OBP60 Buzzer",
+    "category": "OBP40 Buzzer",
     "check": "checkMinMax",
     "default": "50",
     "description": "Buzzer loudness [0...100%]",
@@ -1117,9 +953,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Pages",
+    "category": "OBP40 Pages",
     "check": "checkMinMax",
     "default": "10",
     "label": "Number of Pages",
@@ -1130,9 +966,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Pages",
+    "category": "OBP40 Pages",
     "check": "checkMinMax",
     "default": "1",
     "label": "Start Page",
@@ -1143,9 +979,20 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Pages",
+    "category": "OBP40 Pages",
+    "default": "false",
+    "description": "Use wheel button for system page or direct deep sleep mode",
+    "label": "System Page",
+    "name": "systemPage",
+    "type": "boolean"
+  },
+  {
+    "capabilities": {
+      "obp40": "true"
+    },
+    "category": "OBP40 Pages",
     "default": "PBM",
     "description": "Graphics file format for screenshots [GIF|PBM|BMP]",
     "label": "Screenshot Format",
@@ -1168,9 +1015,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "visiblePages": 1
@@ -1203,7 +1050,7 @@
         "visiblePages": 10
       }
     ],
-    "default": "Voltage",
+    "default": "Clock",
     "description": "Type of page for page 1",
     "label": "Type",
     "list": [
@@ -1237,13 +1084,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
-      {
-        "page1type": "Fluid"
-      },
       {
         "page1type": "FourValues"
       },
@@ -1267,6 +1111,9 @@
       },
       {
         "page1type": "WindRoseFlex"
+      },
+      {
+        "page1type": "Fluid"
       }
     ],
     "default": "",
@@ -1277,9 +1124,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "FourValues"
@@ -1311,9 +1158,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "FourValues"
@@ -1339,9 +1186,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "FourValues"
@@ -1364,9 +1211,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "SixValues"
@@ -1383,9 +1230,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "SixValues"
@@ -1402,9 +1249,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 1",
+    "category": "OBP40 Page 1",
     "condition": [
       {
         "page1type": "Fluid"
@@ -1448,9 +1295,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "visiblePages": 2
@@ -1514,14 +1361,11 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
-      {
-        "page2type": "Fluid"
-      },
-      {
+     {
         "page2type": "FourValues"
       },
       {
@@ -1544,6 +1388,9 @@
       },
       {
         "page2type": "WindRoseFlex"
+      },
+      {
+        "page2type": "Fluid"
       }
     ],
     "default": "",
@@ -1554,9 +1401,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "FourValues"
@@ -1588,9 +1435,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "FourValues"
@@ -1616,9 +1463,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "FourValues"
@@ -1641,9 +1488,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "SixValues"
@@ -1660,9 +1507,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "SixValues"
@@ -1679,9 +1526,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 2",
+    "category": "OBP40 Page 2",
     "condition": [
       {
         "page2type": "Fluid"
@@ -1725,9 +1572,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "visiblePages": 3
@@ -1762,6 +1609,7 @@
       "Battery",
       "Battery2",
       "Clock",
+      "Compass",
       "DST810",
       "Fluid",
       "FourValues",
@@ -1787,13 +1635,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
-      {
-        "page3type": "Fluid"
-      },
       {
         "page3type": "FourValues"
       },
@@ -1817,6 +1662,9 @@
       },
       {
         "page3type": "WindRoseFlex"
+      },
+      {
+        "page3type": "Fluid"
       }
     ],
     "default": "",
@@ -1827,9 +1675,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "FourValues"
@@ -1861,9 +1709,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "FourValues"
@@ -1889,9 +1737,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "FourValues"
@@ -1914,9 +1762,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "SixValues"
@@ -1933,9 +1781,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "SixValues"
@@ -1952,9 +1800,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 3",
+    "category": "OBP40 Page 3",
     "condition": [
       {
         "page3type": "Fluid"
@@ -1998,9 +1846,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "visiblePages": 4
@@ -2032,6 +1880,7 @@
       "Battery",
       "Battery2",
       "Clock",
+      "Compass",
       "DST810",
       "Fluid",
       "FourValues",
@@ -2057,13 +1906,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
-      {
-        "page4type": "Fluid"
-      },
       {
         "page4type": "FourValues"
       },
@@ -2087,6 +1933,9 @@
       },
       {
         "page4type": "WindRoseFlex"
+      },
+      {
+        "page4type": "Fluid"
       }
     ],
     "default": "",
@@ -2097,9 +1946,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "FourValues"
@@ -2131,9 +1980,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "FourValues"
@@ -2159,9 +2008,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "FourValues"
@@ -2184,9 +2033,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "SixValues"
@@ -2203,9 +2052,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "SixValues"
@@ -2222,9 +2071,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 4",
+    "category": "OBP40 Page 4",
     "condition": [
       {
         "page4type": "Fluid"
@@ -2268,9 +2117,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "visiblePages": 5
@@ -2325,13 +2174,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
-      {
-        "page5type": "Fluid"
-      },
       {
         "page5type": "FourValues"
       },
@@ -2355,6 +2201,9 @@
       },
       {
         "page5type": "WindRoseFlex"
+      },
+      {
+        "page5type": "Fluid"
       }
     ],
     "default": "",
@@ -2365,9 +2214,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "FourValues"
@@ -2399,9 +2248,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "FourValues"
@@ -2427,9 +2276,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "FourValues"
@@ -2452,9 +2301,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "SixValues"
@@ -2471,9 +2320,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "SixValues"
@@ -2490,9 +2339,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 5",
+    "category": "OBP40 Page 5",
     "condition": [
       {
         "page5type": "Fluid"
@@ -2536,9 +2385,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "visiblePages": 6
@@ -2590,13 +2439,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
-      {
-        "page6type": "Fluid"
-      },
       {
         "page6type": "FourValues"
       },
@@ -2620,6 +2466,9 @@
       },
       {
         "page6type": "WindRoseFlex"
+      },
+      {
+        "page6type": "Fluid"
       }
     ],
     "default": "",
@@ -2630,9 +2479,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "FourValues"
@@ -2664,9 +2513,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "FourValues"
@@ -2692,9 +2541,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "FourValues"
@@ -2717,9 +2566,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "SixValues"
@@ -2736,9 +2585,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "SixValues"
@@ -2755,9 +2604,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 6",
+    "category": "OBP40 Page 6",
     "condition": [
       {
         "page6type": "Fluid"
@@ -2801,9 +2650,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "visiblePages": 7
@@ -2852,13 +2701,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
-      {
-        "page7type": "Fluid"
-      },
       {
         "page7type": "FourValues"
       },
@@ -2882,6 +2728,9 @@
       },
       {
         "page7type": "WindRoseFlex"
+      },
+      {
+        "page7type": "Fluid"
       }
     ],
     "default": "",
@@ -2892,9 +2741,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "FourValues"
@@ -2926,9 +2775,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "FourValues"
@@ -2954,9 +2803,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "FourValues"
@@ -2979,9 +2828,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "SixValues"
@@ -2998,9 +2847,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "SixValues"
@@ -3017,9 +2866,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 7",
+    "category": "OBP40 Page 7",
     "condition": [
       {
         "page7type": "Fluid"
@@ -3063,9 +2912,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "visiblePages": 8
@@ -3077,7 +2926,7 @@
         "visiblePages": 10
       }
     ],
-    "default": "Clock",
+    "default": "Fluid",
     "description": "Type of page for page 8",
     "label": "Type",
     "list": [
@@ -3111,13 +2960,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
-      {
-        "page8type": "Fluid"
-      },
       {
         "page8type": "FourValues"
       },
@@ -3141,6 +2987,9 @@
       },
       {
         "page8type": "WindRoseFlex"
+      },
+      {
+        "page8type": "Fluid"
       }
     ],
     "default": "",
@@ -3151,9 +3000,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "FourValues"
@@ -3185,9 +3034,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "FourValues"
@@ -3213,9 +3062,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "FourValues"
@@ -3238,9 +3087,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "SixValues"
@@ -3257,9 +3106,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "SixValues"
@@ -3276,9 +3125,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 8",
+    "category": "OBP40 Page 8",
     "condition": [
       {
         "page8type": "Fluid"
@@ -3322,9 +3171,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "visiblePages": 9
@@ -3367,13 +3216,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
-      {
-        "page9type": "Fluid"
-      },
       {
         "page9type": "FourValues"
       },
@@ -3397,6 +3243,9 @@
       },
       {
         "page9type": "WindRoseFlex"
+      },
+      {
+        "page9type": "Fluid"
       }
     ],
     "default": "",
@@ -3407,9 +3256,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "FourValues"
@@ -3441,9 +3290,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "FourValues"
@@ -3469,9 +3318,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "FourValues"
@@ -3494,9 +3343,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "SixValues"
@@ -3513,9 +3362,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "SixValues"
@@ -3532,9 +3381,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 9",
+    "category": "OBP40 Page 9",
     "condition": [
       {
         "page9type": "Fluid"
@@ -3578,9 +3427,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "visiblePages": 10
@@ -3620,13 +3469,10 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
-      {
-        "page10type": "Fluid"
-      },
       {
         "page10type": "FourValues"
       },
@@ -3650,6 +3496,9 @@
       },
       {
         "page10type": "WindRoseFlex"
+      },
+      {
+        "page10type": "Fluid"
       }
     ],
     "default": "",
@@ -3660,9 +3509,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "FourValues"
@@ -3694,9 +3543,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "FourValues"
@@ -3722,9 +3571,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "FourValues"
@@ -3747,9 +3596,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "SixValues"
@@ -3766,9 +3615,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "SixValues"
@@ -3785,9 +3634,9 @@
   },
   {
     "capabilities": {
-      "obp60": "true"
+      "obp40": "true"
     },
-    "category": "OBP60 Page 10",
+    "category": "OBP40 Page 10",
     "condition": [
       {
         "page10type": "Fluid"
