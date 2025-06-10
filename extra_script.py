@@ -101,27 +101,13 @@ def writeFileIfChanged(fileName,data):
         oh.write(data)
     return True    
 
-def mergeConfig(base, other):
+def mergeConfig(base,other):
     for cname in other:
         if os.path.exists(cname):
             print("merge config %s"%cname)
             with open(cname,'rb') as ah:
                 merge=json.load(ah)
-                
-                # Create a dictionary to track existing items by name
-                existing_items = {}
-                for item in base:
-                    name = item.get('name')
-                    if name:
-                        existing_items[name] = item
-                
-                # Add only non-duplicate items from the merge config
-                for item in merge:
-                    name = item.get('name')
-                    if name and name in existing_items:
-                        print(f"Warning: Skipping duplicate config item '{name}' from {cname}")
-                    else:
-                        base.append(item)
+                base=base+merge
     return base
 
 def replaceTexts(data,replacements):
