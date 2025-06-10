@@ -10,7 +10,7 @@
   },
   {
     "capabilities": {
-      "obp40": "true"
+      "obp60": "true"
     },
     "category": "wifi client",
     "default": "pool.ntp.org",
