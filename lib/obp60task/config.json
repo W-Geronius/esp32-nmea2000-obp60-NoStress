@@ -3,7 +3,7 @@
         "name": "deviceName",
         "label": "system name",
         "type": "string",
-        "default": "OBP40",
+        "default": "OBP60V2",
         "check": "checkSystemName",
         "description": "system name, used for the access point and for services",
         "category": "system"
@@ -16,7 +16,7 @@
         "description": "NTP time server. Use only one hostname or IP address",
         "category": "wifi client",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         }
     },
     {
@@ -28,37 +28,37 @@
         "min": -12.00,
         "max": 14.00,
         "description": "Time zone [UTC -12...+14]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "homeLAT",
         "label": "Home latitude",
         "type": "number",
-        "default": "0.00000",
+        "default": "",
         "check": "checkMinMax",
         "min": -90.0,
         "max": 90.0,
         "description": "Latitude of boat home location [-90.0...+90.0]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "homeLON",
         "label": "Home longitude",
         "type": "number",
-        "default": "0.00000",
+        "default": "",
         "check": "checkMinMax",
         "min": -180.0,
         "max": 180.0,
         "description": "Longitude of boat home location [-180.0...+180.0]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -70,9 +70,9 @@
         "min": 0.00,
         "max": 50.00,
         "description": "The draft of the boat [0...50m]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -84,9 +84,9 @@
         "min": 0,
         "max": 5000,
         "description": "Fuel tank capacity [0...5000l]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -98,9 +98,9 @@
         "min": 0.00,
         "max": 1000.00,
         "description": "Medium fuel consumption [0...1000l/h]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -112,9 +112,9 @@
         "min": 0,
         "max": 5000,
         "description": "Water tank capacity [0...5000l]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -126,9 +126,9 @@
         "min": 0,
         "max": 5000,
         "description": "Waste tank capacity [0...5000l]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -141,9 +141,9 @@
             "12V",
             "24V"
         ],
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -158,9 +158,9 @@
             "AGM",
             "LiFePo4"
         ],
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -172,9 +172,9 @@
         "min": 0.0,
         "max": 10000.0,
         "description": "Battery capacity [0...10000Ah]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -186,9 +186,9 @@
         "min": 0.0,
         "max": 10000.0,
         "description": "Solar power [0...10000W]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -200,9 +200,9 @@
         "min": 0.0,
         "max": 10000.0,
         "description": "Generator power [0...10000W]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -214,9 +214,9 @@
         "min": 1.0,
         "max": 12.0,
         "description": "track step offset [1...12deg]",
-        "category": "OBP40 Settings",
+        "category": "OBP60 Settings",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -229,9 +229,9 @@
             "m",
             "ft"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -245,9 +245,9 @@
             "km",
             "nm"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -261,9 +261,9 @@
             "km/h",
             "kn"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -278,9 +278,9 @@
             "kn",
             "bft"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -294,9 +294,9 @@
             "C",
             "F"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -311,9 +311,9 @@
             "US",
             "ISO"
         ],
-        "category": "OBP40 Units",
+        "category": "OBP60 Units",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -327,31 +327,31 @@
             "160",
             "240"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "useRTC",
         "label": "RTC Modul",
         "type": "list",
-        "default": "off",
+        "default": "DS1388",
         "description": "Use internal RTC module type [off|DS1388]",
         "list": [
             "off",
             "DS1388"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "useGPS",
         "label": "GPS Sensor",
         "type": "list",
-        "default": "off",
+        "default": "ATGM336H",
         "description": "Use internal GPS module type [off|NEO-6M|NEO-M8N|ATGM336H]",
         "list": [
             "off",
@@ -359,9 +359,9 @@
             "NEO-M8N",
             "ATGM336H"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -373,16 +373,16 @@
         "min": 1,
         "max": 50,
         "description": "HDOP ccuracy in m for a valid GPS signal [1...50]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "useEnvSensor",
         "label": "Env. Sensor",
         "type": "list",
-        "default": "off",
+        "default": "BMP280",
         "description": "Use internal or external environment sensor via I2C bus [off|BME280|BMP280|BMP180|BMP085|HTU21|SHT21]",
         "list": [
             "off",
@@ -393,9 +393,9 @@
             "HTU21",
             "SHT21"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -409,9 +409,9 @@
             "INA219",
             "INA226"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -429,9 +429,9 @@
             "400",
             "500"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -445,9 +445,9 @@
             "INA219",
             "INA226"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -465,9 +465,9 @@
             "400",
             "500"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -481,9 +481,9 @@
             "INA219",
             "INA226"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -501,9 +501,9 @@
             "400",
             "500"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -516,9 +516,9 @@
             "off",
             "AS5600"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -536,9 +536,9 @@
             "Trim",
             "Boom"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -550,9 +550,9 @@
         "min": -180,
         "max": 180,
         "description": "Offset for rotation sensor [-180°...+180°]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -564,9 +564,9 @@
         "min": -90,
         "max": 90,
         "description": "Limit violation for roll angle [-90°...+90°]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -578,9 +578,9 @@
         "min": -45,
         "max": 45,
         "description": "Roll offset angle [-45°...+45°]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -592,9 +592,9 @@
         "min": -45,
         "max": 45,
         "description": "Pitch offset angle [-45°...+45°]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -607,20 +607,9 @@
             "off",
             "DS18B20"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
-        }
-    },
-    {
-        "name": "useSDCard",
-        "label": "SD Card",
-        "type": "boolean",
-        "default": "false",
-        "description": "Use internal SD card interface [off|on]",
-        "category": "OBP40 Hardware",
-        "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -634,9 +623,9 @@
             "Only 5.0V",
             "Min Power"
         ],
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -644,10 +633,10 @@
         "label": "Undervoltage",
         "type": "boolean",
         "default": "false",
-        "description": "Switch off device if LiPo voltage drops below 3.65V [on|off]",
-        "category": "OBP40 Hardware",
+        "description": "Switch off device if voltage drops below 9V [on|off]",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40":"true"
+            "obp60":"true"
         }
     },
     {
@@ -656,9 +645,9 @@
         "type": "boolean",
         "default": "false",
         "description": "Use simulation data when bus data are missing [on|off]",
-        "category": "OBP40 Hardware",
+        "category": "OBP60 Hardware",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -670,9 +659,9 @@
         "min": 0,
         "max": 100,
         "description": "Touch sensitivity [0...100%] for sensor buttons",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -681,9 +670,9 @@
         "type": "number",
         "default": "-1.00",
         "description": "Offset for internal voltage sensor (ESP32)",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -692,9 +681,9 @@
         "type": "number",
         "default": "1.00",
         "description": "Slope for internal voltage sensor (ESP32)",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -707,19 +696,21 @@
             "---",
             "AWA",
             "AWS",
+            "COG",
             "DBT",
             "HDM",
             "PRPOS",
             "RPOS",
+            "SOG",
             "STW",
             "TWA",
             "TWS",
             "TWD",
             "WTemp"
         ],
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -728,10 +719,24 @@
         "type": "number",
         "default": "0.00",
         "description": "Offset for data instance 1",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance1": "AWA" },
+            { "calInstance1": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance1": "DBT" },
+            { "calInstance1": "HDM" },
+            { "calInstance1": "PRPOS" },
+            { "calInstance1": "RPOS" },
+            { "calInstance1": "SOG" },
+            { "calInstance1": "STW" },
+            { "calInstance1": "TWA" },
+            { "calInstance1": "TWS" },
+            { "calInstance1": "TWD" },
+            { "calInstance1": "WTemp" } ]
     },
     {
         "name": "calSlope1",
@@ -739,10 +744,24 @@
         "type": "number",
         "default": "1.00",
         "description": "Slope for data instance 1",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance1": "AWA" },
+            { "calInstance1": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance1": "DBT" },
+            { "calInstance1": "HDM" },
+            { "calInstance1": "PRPOS" },
+            { "calInstance1": "RPOS" },
+            { "calInstance1": "SOG" },
+            { "calInstance1": "STW" },
+            { "calInstance1": "TWA" },
+            { "calInstance1": "TWS" },
+            { "calInstance1": "TWD" },
+            { "calInstance1": "WTemp" }  ]
     },
     {
         "name": "calSmooth1",
@@ -752,11 +771,25 @@
         "check": "checkMinMax",
         "min": 0,
         "max": 10,
-        "description": "Smoothing factor for data instance 1",
-        "category": "OBP40 Calibrations",
+        "description": "Smoothing factor [0..10]; 0 = no smoothing",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance1": "AWA" },
+            { "calInstance1": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance1": "DBT" },
+            { "calInstance1": "HDM" },
+            { "calInstance1": "PRPOS" },
+            { "calInstance1": "RPOS" },
+            { "calInstance1": "SOG" },
+            { "calInstance1": "STW" },
+            { "calInstance1": "TWA" },
+            { "calInstance1": "TWS" },
+            { "calInstance1": "TWD" },
+            { "calInstance1": "WTemp" }  ]
     },
     {
         "name": "calInstance2",
@@ -768,19 +801,21 @@
             "---",
             "AWA",
             "AWS",
+            "COG",
             "DBT",
             "HDM",
             "PRPOS",
             "RPOS",
+            "SOG",
             "STW",
             "TWA",
             "TWS",
             "TWD",
             "WTemp"
         ],
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -789,10 +824,24 @@
         "type": "number",
         "default": "0.00",
         "description": "Offset for data instance 2",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance2": "AWA" },
+            { "calInstance2": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance2": "DBT" },
+            { "calInstance2": "HDM" },
+            { "calInstance2": "PRPOS" },
+            { "calInstance2": "RPOS" },
+            { "calInstance2": "SOG" },
+            { "calInstance2": "STW" },
+            { "calInstance2": "TWA" },
+            { "calInstance2": "TWS" },
+            { "calInstance2": "TWD" },
+            { "calInstance2": "WTemp" } ]
     },
     {
         "name": "calSlope2",
@@ -800,10 +849,24 @@
         "type": "number",
         "default": "1.00",
         "description": "Slope for data instance 2",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance2": "AWA" },
+            { "calInstance2": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance2": "DBT" },
+            { "calInstance2": "HDM" },
+            { "calInstance2": "PRPOS" },
+            { "calInstance2": "RPOS" },
+            { "calInstance2": "SOG" },
+            { "calInstance2": "STW" },
+            { "calInstance2": "TWA" },
+            { "calInstance2": "TWS" },
+            { "calInstance2": "TWD" },
+            { "calInstance2": "WTemp" } ]
     },
     {
         "name": "calSmooth2",
@@ -813,11 +876,25 @@
         "check": "checkMinMax",
         "min": 0,
         "max": 10,
-        "description": "Smoothing factor for data instance 2",
-        "category": "OBP40 Calibrations",
+        "description": "Smoothing factor [0..10]; 0 = no smoothing",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance2": "AWA" },
+            { "calInstance2": "AWS" },
+            { "calInstance2": "COG" },
+            { "calInstance2": "DBT" },
+            { "calInstance2": "HDM" },
+            { "calInstance2": "PRPOS" },
+            { "calInstance2": "RPOS" },
+            { "calInstance2": "SOG" },
+            { "calInstance2": "STW" },
+            { "calInstance2": "TWA" },
+            { "calInstance2": "TWS" },
+            { "calInstance2": "TWD" },
+            { "calInstance2": "WTemp" } ]
     },
     {
         "name": "calInstance3",
@@ -829,19 +906,21 @@
             "---",
             "AWA",
             "AWS",
+            "COG",
             "DBT",
             "HDM",
             "PRPOS",
             "RPOS",
+            "SOG",
             "STW",
             "TWA",
             "TWS",
             "TWD",
             "WTemp"
         ],
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -850,10 +929,24 @@
         "type": "number",
         "default": "0.00",
         "description": "Offset for data instance 3",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance3": "AWA" },
+            { "calInstance3": "AWS" },
+            { "calInstance3": "COG" },
+            { "calInstance3": "DBT" },
+            { "calInstance3": "HDM" },
+            { "calInstance3": "PRPOS" },
+            { "calInstance3": "RPOS" },
+            { "calInstance3": "SOG" },
+            { "calInstance3": "STW" },
+            { "calInstance3": "TWA" },
+            { "calInstance3": "TWS" },
+            { "calInstance3": "TWD" },
+            { "calInstance3": "WTemp" } ]
     },
     {
         "name": "calSlope3",
@@ -861,10 +954,24 @@
         "type": "number",
         "default": "1.00",
         "description": "Slope for data instance 3",
-        "category": "OBP40 Calibrations",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance3": "AWA" },
+            { "calInstance3": "AWS" },
+            { "calInstance3": "COG" },
+            { "calInstance3": "DBT" },
+            { "calInstance3": "HDM" },
+            { "calInstance3": "PRPOS" },
+            { "calInstance3": "RPOS" },
+            { "calInstance3": "SOG" },
+            { "calInstance3": "STW" },
+            { "calInstance3": "TWA" },
+            { "calInstance3": "TWS" },
+            { "calInstance3": "TWD" },
+            { "calInstance3": "WTemp" } ]
     },
     {
         "name": "calSmooth3",
@@ -874,11 +981,25 @@
         "check": "checkMinMax",
         "min": 0,
         "max": 10,
-        "description": "Smoothing factor for data instance 3",
-        "category": "OBP40 Calibrations",
+        "description": "Smoothing factor [0..10]; 0 = no smoothing",
+        "category": "OBP60 Calibrations",
         "capabilities": {
-            "obp40": "true"
-        }
+            "obp60":"true"
+        },
+        "condition": [
+            { "calInstance3": "AWA" },
+            { "calInstance3": "AWS" },
+            { "calInstance3": "COG" },
+            { "calInstance3": "DBT" },
+            { "calInstance3": "HDM" },
+            { "calInstance3": "PRPOS" },
+            { "calInstance3": "RPOS" },
+            { "calInstance3": "SOG" },
+            { "calInstance3": "STW" },
+            { "calInstance3": "TWA" },
+            { "calInstance3": "TWS" },
+            { "calInstance3": "TWD" },
+            { "calInstance3": "WTemp" } ]
     },
     {
         "name": "display",
@@ -892,9 +1013,9 @@
             "Logo + QR Code",
             "Off"
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -907,9 +1028,9 @@
             "Normal",
             "Inverse"
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -918,9 +1039,9 @@
         "type": "boolean",
         "default": "true",
         "description": "Show status line [on|off]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -928,15 +1049,14 @@
         "label": "Status Time Source",
         "type": "list",
         "default": "GPS",
-        "description": "Data source for date and time display in status line [RTC|iRTC|GPS]",
+        "description": "Data source for date and time display in status line [RTC|GPS]",
         "list": [
-            {"l":"Internal real time clock (iRTC)","v":"iRTC"},
-            {"l":"External real time clock (RTC)","v":"RTC"},
-            {"l":"External time via bus (GPS)","v":"GPS"}
+            {"l":"Real time clock (RTC)","v":"RTC"},
+            {"l":"Time via bus (GPS)","v":"GPS"}
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40":"true"
+            "obp60":"true"
         }
     },
     {
@@ -945,9 +1065,9 @@
         "type": "boolean",
         "default": "true",
         "description": "Refresh e-paper display after each new page request to reduce ghost effects [on|off]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -956,9 +1076,9 @@
         "type": "boolean",
         "default": "false",
         "description": "Fast refresh for e-paper display [on|off]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -970,9 +1090,9 @@
         "min": 1,
         "max": 10,
         "description": "E-Paper full refresh time all [1...10 min]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -981,16 +1101,16 @@
         "type": "boolean",
         "default": "false",
         "description": "Retain old values when data stream stops [on|off]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
         "name": "backlight",
         "label": "Backlight Mode",
         "type": "list",
-        "default": "off",
+        "default": "Control by Key",
         "description": "Settings for automatic backlight mode",
         "list": [
             "Off",
@@ -1000,9 +1120,9 @@
             "Control by Key",
             "On"
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1021,9 +1141,9 @@
             "Violet",
             "White"
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1035,16 +1155,16 @@
         "min": 20,
         "max": 100,
         "description": "Backlight brightness [20...100%]",
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
         "name": "flashLED",
         "label": "Flash LED Mode",
         "type": "list",
-        "default": "Off",
+        "default": "Limit Violation",
         "description": "Settings for flash LED",
         "list": [
             "Off",
@@ -1052,9 +1172,9 @@
             "GPS Fix Lost",
             "Limit Violation"
         ],
-        "category": "OBP40 Display",
+        "category": "OBP60 Display",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1063,9 +1183,9 @@
         "type": "boolean",
         "default": "false",
         "description": "Sound on error [on|off]",
-        "category": "OBP40 Buzzer",
+        "category": "OBP60 Buzzer",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1074,9 +1194,9 @@
         "type": "boolean",
         "default": "false",
         "description": "Sound on missing or lost GPS fix",
-        "category": "OBP40 Buzzer",
+        "category": "OBP60 Buzzer",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1085,9 +1205,9 @@
         "type": "boolean",
         "default": "false",
         "description": "Sound on limit violation",
-        "category": "OBP40 Buzzer",
+        "category": "OBP60 Buzzer",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1102,9 +1222,9 @@
             "Longer Single Beep",
             "Beep until Confirmation"
         ],
-        "category": "OBP40 Buzzer",
+        "category": "OBP60 Buzzer",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
     },
     {
@@ -1116,9 +1236,9 @@
         "min": 0,
         "max": 100,
         "description": "Buzzer loudness [0...100%]",
-        "category": "OBP40 Buzzer",
+        "category": "OBP60 Buzzer",
         "capabilities": {
-            "obp40": "false"
+            "obp60":"true"
         }
       },
       {
@@ -1130,9 +1250,9 @@
         "max": 10,
         "default":"10",
         "description": "Number of visible data pages [1...10]",
-        "category":"OBP40 Pages",
+        "category":"OBP60 Pages",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -1144,20 +1264,9 @@
         "max": 10,
         "default":"1",
         "description": "First page number to display after device startup",
-        "category":"OBP40 Pages",
+        "category":"OBP60 Pages",
         "capabilities": {
-            "obp40": "true"
-        }
-    },
-    {
-        "name": "systemPage",
-        "label": "System Page",
-        "type": "boolean",
-        "default": "false",
-        "description": "Use wheel button for system page or direct deep sleep mode",
-        "category":"OBP40 Pages",
-        "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
     {
@@ -1171,16 +1280,18 @@
             {"l":"Portable bitmap (PBM)","v":"PBM"},
             {"l":"Windows bitmap (BMP)","v":"BMP"}
         ],
-        "category":"OBP40 Pages",
+        "category":"OBP60 Pages",
         "capabilities": {
-            "obp40": "true"
+            "obp60":"true"
         }
     },
+ 
+    
     {
         "name": "page1type",
         "label": "Type",
         "type": "list",
-        "default": "Clock",
+        "default": "Voltage",
         "description": "Type of page for page 1",
         "list": [
             "BME280",
@@ -1208,9 +1319,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1251,9 +1362,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1291,9 +1402,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1325,9 +1436,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1353,9 +1464,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1378,9 +1489,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1397,9 +1508,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1446,9 +1557,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 1",
+        "category": "OBP60 Page 1",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1460,7 +1571,7 @@
         "name": "page2type",
         "label": "Type",
         "type": "list",
-        "default": "Wind",
+        "default": "WindRose",
         "description": "Type of page for page 2",
         "list": [
             "BME280",
@@ -1488,9 +1599,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1528,9 +1639,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1568,9 +1679,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1602,9 +1713,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1630,9 +1741,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1655,9 +1766,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1674,9 +1785,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1723,9 +1834,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 2",
+        "category": "OBP60 Page 2",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1765,9 +1876,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1802,9 +1913,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1842,9 +1953,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1876,9 +1987,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1904,9 +2015,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1929,9 +2040,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1948,9 +2059,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -1997,9 +2108,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 3",
+        "category": "OBP60 Page 3",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2039,9 +2150,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2073,9 +2184,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2113,9 +2224,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2147,9 +2258,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2175,9 +2286,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2200,9 +2311,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2219,9 +2330,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2268,9 +2379,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 4",
+        "category": "OBP60 Page 4",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2310,9 +2421,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2341,9 +2452,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2381,9 +2492,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2415,9 +2526,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2443,9 +2554,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2468,9 +2579,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2487,9 +2598,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2536,9 +2647,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 5",
+        "category": "OBP60 Page 5",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2578,9 +2689,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2606,9 +2717,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2646,9 +2757,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2680,9 +2791,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2708,9 +2819,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2733,9 +2844,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2752,9 +2863,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2801,9 +2912,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 6",
+        "category": "OBP60 Page 6",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2843,9 +2954,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2868,9 +2979,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2908,9 +3019,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2942,9 +3053,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2970,9 +3081,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -2995,9 +3106,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3014,9 +3125,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3063,9 +3174,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 7",
+        "category": "OBP60 Page 7",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3077,7 +3188,7 @@
         "name": "page8type",
         "label": "Type",
         "type": "list",
-        "default": "Fluid",
+        "default": "Clock",
         "description": "Type of page for page 8",
         "list": [
             "BME280",
@@ -3105,9 +3216,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3127,9 +3238,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3167,9 +3278,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3201,9 +3312,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3229,9 +3340,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3254,9 +3365,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3273,9 +3384,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3322,9 +3433,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 8",
+        "category": "OBP60 Page 8",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3364,9 +3475,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3383,9 +3494,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3423,9 +3534,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3457,9 +3568,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3485,9 +3596,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3510,9 +3621,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3529,9 +3640,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3578,9 +3689,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 9",
+        "category": "OBP60 Page 9",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3620,9 +3731,9 @@
             "WindRoseFlex",
             "XTETrack"
         ],
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3636,9 +3747,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field one",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3676,9 +3787,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field two",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3710,9 +3821,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field three",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3738,9 +3849,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field four",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3763,9 +3874,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field five",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3782,9 +3893,9 @@
         "type": "boatData",
         "default": "",
         "description": "The display for field six",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3831,9 +3942,9 @@
             }
         ],
         "description": "Fluid type in tank",
-        "category": "OBP40 Page 10",
+        "category": "OBP60 Page 10",
         "capabilities": {
-            "obp40": "true"
+            "obp60": "true"
         },
         "condition": [
             {
@@ -3842,3 +3953,4 @@
         ]
     }
 ]
+
